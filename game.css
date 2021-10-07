@@ -5,9 +5,9 @@
     --color-secundario: #3D2C8D;
     --color-terciario: #916BBF;
     --color-fondo:#C996CC;
-    --difuminado:rgba(145, 107, 191,0.5);
-    
+    --difuminado:rgba(145, 107, 191,0.5);   
 }
+
 .choice-container{
     display: flex;
     margin-bottom: 0.5rem;
@@ -16,6 +16,7 @@
     border:0.1rem solid var(--difuminado);
     background-color: var(--color-terciario)
 }
+
 .choice-container:hover{
     cursor:pointer;
     box-shadow: 0 0.4rem 1.4rem black;
@@ -43,4 +44,16 @@
 }
 .incorrect {
     background-color: red;
+}
+/* HUD */
+#hud {
+    display:flex;
+    justify-content: space-between;
+}
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+.hud-main-text {
+    text-align: center;
 }
